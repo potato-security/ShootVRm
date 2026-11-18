@@ -1,0 +1,81 @@
+# ============================================
+# Unity 2018.1 项目 .gitignore
+# ============================================
+
+# --------------------------------------------
+# Unity 生成的目录（不要提交）
+# --------------------------------------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store 下载的原始包（体积大且可由 .unitypackage 重新导入）
+/[Aa]ssets/AssetStoreTools*
+
+# Unity 崩溃日志
+sysinfo.txt
+*.stackdump
+crashlytics-build.properties
+
+# --------------------------------------------
+# Unity 自动生成的工程文件
+# --------------------------------------------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Visual Studio / Rider / VS Code 缓存
+.vs/
+.vscode/
+.idea/
+.idea.meta
+
+# --------------------------------------------
+# 构建产物
+# --------------------------------------------
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+
+# 导出的 Android/iOS 工程与 AssetBundle 产物
+/[Ee]xported[Oo]bj/
+/[Aa]ssets/[Aa]sset[Bb]undles/
+
+# --------------------------------------------
+# 操作系统文件
+# --------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --------------------------------------------
+# 其他
+# --------------------------------------------
+*.orig
+*.rej
+*.swp
+*~
+.consulo/

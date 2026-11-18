@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scene/StartGame.unity
+    guid: 17f89edccbeb24442a6c723f6f082a8c
+  - enabled: 0
+    path: Assets/Scene/Games.unity
+    guid: 7e0d81493d5285742a02bc3d8d8eb393
+  - enabled: 1
+    path: Assets/Scene/Bathroom.unity
+    guid: d975d269f9ef63647af4ebef4008e8a1
+  - enabled: 1
+    path: Assets/Scene/final.unity
+    guid: 00000000000000000000000000000000
